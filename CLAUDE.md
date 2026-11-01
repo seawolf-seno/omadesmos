@@ -12,5 +12,6 @@ platform initiative (see `~/.claude/CLAUDE.md`). Sibling of `omacanvas`: keep th
 ## Status
 - 0.1.0 works on seno's machine (2026-10-31): all six calculators, 3D renders, switching keeps
   work, off-list pages blocked, package builds.
-- Not yet tested in the pacos VM or on real Framework hardware (3D depends on the GPU driver).
-- In pacos 0.2.0-4 (Super+4) since 2026-11-01; VM test pending. Fizzy: PacOS board, card #45.
+- Not yet tested on real Framework hardware (3D depends on the GPU driver).
+- In pacos 0.2.0-4 (Super+4) since 2026-11-01. VM: works for a student; 3D blank there (no GPU
+  acceleration in the VM). Fizzy: PacOS board, card #45.
