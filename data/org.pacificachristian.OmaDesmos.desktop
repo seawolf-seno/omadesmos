@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Desmos
+GenericName=Graphing Calculator
+Comment=Desmos graphing, 3D, geometry, scientific and matrix calculators
+Exec=omadesmos
+Icon=omadesmos
+Terminal=false
+StartupNotify=true
+StartupWMClass=org.pacificachristian.OmaDesmos
+Categories=Education;Math;Science;
+Keywords=graph;calculator;math;desmos;geometry;3d;
