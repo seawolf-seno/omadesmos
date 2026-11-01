@@ -1,4 +1,4 @@
 {
   "desmos_url": "https://www.desmos.com/",
-  "allowed_hosts": []
+  "allowed_hosts": ["accounts.google.com"]
 }

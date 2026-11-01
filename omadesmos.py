@@ -103,7 +103,9 @@ class DesmosWindow(Gtk.ApplicationWindow):
         self.stack = Gtk.Stack()
         self.popup = related is not None
         if self.popup:
-            self.stack.add(self.new_view(related))
+            view = self.new_view(related)
+            view.show()  # a Gtk.Stack has no visible child until it's shown
+            self.stack.add(view)
         self.connect("key-press-event", self.on_key)
         self.build_ui()
 

@@ -1,6 +1,6 @@
 # Maintainer: Steven Eno <seno@pacificachristian.org>
 pkgname=omadesmos
-pkgver=0.1.0
+pkgver=0.1.1
 pkgrel=1
 pkgdesc="Desmos calculators for Omarchy in a locked-down window (no general web browsing)"
 arch=('any')

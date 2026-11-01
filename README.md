@@ -7,7 +7,7 @@ a general browser.
   and Matrix. It runs the real desmos.com, so new Desmos features show up on their own.
 - **Switching keeps your work.** Each calculator stays loaded once opened. Use the header
   buttons or Ctrl+1 to Ctrl+6. The app reopens on the last calculator you used.
-- Desmos accounts (email sign-in), saving graphs and image export (to `~/Downloads`) work.
+- Desmos accounts (email or Google sign-in), saving graphs and image export (to `~/Downloads`) work.
 - Pages outside Desmos are blocked with a short notice. Camera, mic and location are off.
 
 ## Run
@@ -27,7 +27,7 @@ wins, and students can't override it.
 | Key | Meaning |
 |---|---|
 | `desmos_url` | Desmos site. Its host and subdomains are always allowed. |
-| `allowed_hosts` | Extra hosts that may open as a page. Empty by default, so "Sign in with Google" is blocked. Add `accounts.google.com` to allow it. |
+| `allowed_hosts` | Extra hosts that may open as a page. Default: `accounts.google.com`, for "Sign in with Google". |
 
 ## How it works
 
